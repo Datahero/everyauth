@@ -416,8 +416,8 @@ everyauth
 
 everyauth
   .shopify
-    .apiHost('https://SHOP-NAME.myshopify.com') 
-    .oauthHost('https://SHOP-NAME.myshopify.com') 
+    .apiHost('https://SHOP-NAME.myshopify.com')
+    .oauthHost('https://SHOP-NAME.myshopify.com')
     .appId(conf.shopify.appId)
     .appSecret(conf.shopify.appSecret)
     .scope(conf.shopify.scope)
@@ -449,7 +449,6 @@ everyauth
         (usersBySalesforceId[salesforceUser.id] = addUser('salesforce', salesforceUser));
     })
     .redirectPath("/");
-
 
 var app = express();
 app.use(express.static(__dirname + '/public'))
