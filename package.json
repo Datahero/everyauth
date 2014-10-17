@@ -37,11 +37,11 @@
     "express": "3.x"
   },
   "devDependencies": {
-    "jade": ">=0.12.1",
-    "tobi": ">=0.2.2",
-    "expect.js": ">=0.1.2",
-    "mocha": ">=0.13.0",
-    "satisfy": ">=0.1.0"
+    "jade": "0.x",
+    "tobi": "0.x",
+    "expect.js": "0.x",
+    "mocha": "0.x",
+    "satisfy": "0.x"
   },
   "engines": {
     "node": ">=0.4"
